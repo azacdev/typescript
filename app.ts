@@ -59,8 +59,8 @@ user.age = 18;
 // user.isAdmin = "no"
 user.isAdmin = true;
 
-// user.phone = "+123456"
 // cannot add a property that doesnt exist
+// user.phone = "+123456"
 
 let userObj: {
   username: string;
@@ -68,16 +68,34 @@ let userObj: {
   isAdmin: boolean;
 };
 
+// error cause we didnt use all properties
+
 // userObj = {
 //   username: "Abdul",
 //   age: 44,
 // };
 
-// error cause we didnt use all properties also we cannot add anything else
+// Also we cannot add anything else
 
 userObj = {
   username: "Abdul",
   age: 44,
-  isAdmin: true
+  isAdmin: true,
+  //   phone: "+123456"
 };
 
+userObj = {
+  username: "Abdul",
+  age: 44,
+  isAdmin: true,
+};
+
+// if weve users and some of them have a phone number and the others dont
+// then we use condition
+
+let userObj2: {
+  username: string;
+  age: number;
+  isAdmin: boolean;
+  phone?: string;
+};
