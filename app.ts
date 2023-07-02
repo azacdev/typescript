@@ -60,3 +60,10 @@ user.age = 18
 user.isAdmin = true
 
 // user.phone = "+123456"
+// cannot add a property that doesnt exist
+
+let userObj: {
+    username: string,
+    age: number,
+    isAdmin: boolean
+}
