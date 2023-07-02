@@ -44,3 +44,19 @@ testNumbersArray = [23,5,12,55]
 let textStringOrNumberArray: (string | number) [];
 // textStringOrNumberArray = ["hello", true, 23, {}]
 textStringOrNumberArray = ["hello", "world", 23]
+
+// Objects
+
+let user = {
+  userName: "john",
+  age: 22,
+  isAdmin: false
+}
+
+user.userName = "Anna"
+// user.age = "eighteen"
+user.age = 18
+// user.isAdmin = "no"
+user.isAdmin = true
+
+// user.phone = "+123456"
