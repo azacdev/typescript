@@ -48,3 +48,20 @@ let userObj2: {
   isAdmin: boolean;
   phone?: string;
 };
+
+//option
+let userObj3: {
+  userName: string;
+  age: number;
+  phone?: string;
+  theme: "dark" | "light";
+};
+
+userObj3 = {
+  userName: "John",
+  age: 33,
+  phone: "+234",
+  // option it has to be set to dark or light
+  // theme: "pink"
+  theme: "dark",
+};
