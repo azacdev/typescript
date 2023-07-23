@@ -26,7 +26,7 @@ userObj = {
   age: 44,
 };
 
-// Also we cannot add any property that doesnt exist
+// Also we cannot add any properties that doesnt exist
 userObj = {
   username: "Abdul",
   age: 44,

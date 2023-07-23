@@ -1,4 +1,4 @@
-//declaring a variable if you dont provide any type by default its value will be "any"
+// declaring a variable if you dont provide any type by default its value will be "any"
 // let testAny;
 let testAny: any;
 
