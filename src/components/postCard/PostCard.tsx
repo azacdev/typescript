@@ -1,11 +1,10 @@
-import { PostProp } from "../../types/type";
+import { PostProps } from "../../types/types";
 
-
-const PostCard = (props:PostProp ) => {
+const PostCard = ({title, body}:PostProps ) => {
   return (
     <div>
-      <h1>{props.title}</h1>
-      <p>{props.body}</p>
+      <h1>{title}</h1>
+      <p>{body}</p>
     </div>
   );
 };

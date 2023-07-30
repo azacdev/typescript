@@ -1,10 +1,19 @@
 import "./App.css";
-import PostList from "./components/postList/PostList.js";
-
+import ContextExample from "./components/ContextExample.js";
+import EventHandlers from "./components/EventHandlers.js";
+import RefExample from "./components/RefExample.js";
+import State from "./components/State.js";
+import { ThemeProvider } from "./components/context/ThemeContext.js";
 function App() {
   return (
     <>
-      <PostList />
+      <ThemeProvider>
+        {/* <PostList /> */}
+        {/* <EventHandlers /> */}
+        {/* <State /> */}
+        {/* <ContextExample /> */}
+        <RefExample />
+      </ThemeProvider>
     </>
   );
 }

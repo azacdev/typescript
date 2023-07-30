@@ -1,4 +1,4 @@
-import { PostProp } from "../../types/type";
+import { PostProps } from "../../types/types";
 import PostCard from "../postCard/PostCard";
 
 async function getData() {
@@ -10,12 +10,12 @@ async function getData() {
 }
 
 const PostList = async () => {
-  const data:PostProp [] = await getData();
+  const data: PostProps[] = await getData();
 
   return (
     <div>
       {/* <PostCard title={"Hello"} body={"This is the description"} /> */}
-      {data.map((post:PostProp ) => (
+      {data.map((post) => (
         <PostCard key={post.id} {...post} />
       ))}
     </div>
