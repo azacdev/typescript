@@ -18,7 +18,7 @@ testString = "Hello";
 let testBoolean: boolean;
 testBoolean = true;
 
-// Multiple Types
+// Union Types
 let testStringOrNumber: string | number;
 // testStringOrNumber = []
 testStringOrNumber = "10";
